@@ -4,9 +4,9 @@ const int sampleWindow = 200;  // Aumentar a janela de amostragem
 unsigned int sample;
 
 #define SENSOR_PIN 35
-#define PIN_QUIET 33
-#define PIN_MODERATE 25
-#define PIN_LOUD 26
+#define PIN_QUIET 33     // Green LED
+#define PIN_MODERATE 25  // Yellow LED
+#define PIN_LOUD 26      // Red LED
 
 void setup() {
   pinMode(SENSOR_PIN, INPUT);
