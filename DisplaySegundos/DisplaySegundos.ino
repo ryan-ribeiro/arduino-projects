@@ -6,6 +6,7 @@ int dezenaSegundo = 0;
 
 void setup() {
 
+  // pinos das unidades do segundo (X0, X1, X2, X3, ... X9)
   pinMode(2,OUTPUT);
   pinMode(3,OUTPUT);
   pinMode(4,OUTPUT);
@@ -14,6 +15,7 @@ void setup() {
   pinMode(7,OUTPUT);
   pinMode(8,OUTPUT);
   
+  // pinos das dezenas do segundo (0X, 1X, 2X, 3X, ... 6X)
   pinMode(22,OUTPUT);
   pinMode(23,OUTPUT);
   pinMode(24,OUTPUT);
